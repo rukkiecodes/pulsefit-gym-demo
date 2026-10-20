@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="PulseFit weekly class timetable and trainers.">
+  <title>Classes | PulseFit</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a href="index.html" class="logo">Pulse<span>Fit</span></a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="classes.html" aria-current="page">Classes</a></li>
+        <li><a href="index.html#pricing">Pricing</a></li>
+        <li><a href="index.html#faq">FAQ</a></li>
+        <li><a href="index.html#join">Join</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button class="icon-btn" id="theme-toggle" aria-label="Toggle dark mode">🌙</button>
+        <button class="icon-btn menu-btn" id="menu-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="nav-links">☰</button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <h1>Weekly Classes</h1>
+      <p>Pick your style, pick your time.</p>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="filters" role="group" aria-label="Filter classes">
+          <button class="filter active" data-filter="all" aria-pressed="true">All</button>
+          <button class="filter" data-filter="yoga" aria-pressed="false">Yoga</button>
+          <button class="filter" data-filter="cardio" aria-pressed="false">Cardio</button>
+          <button class="filter" data-filter="strength" aria-pressed="false">Strength</button>
+        </div>
+
+        <div class="table-wrap" tabindex="0" aria-label="Class timetable">
+          <table class="timetable">
+            <caption class="sr-only" hidden>Weekly class timetable</caption>
+            <thead>
+              <tr><th scope="col">Time</th><th scope="col">Mon</th><th scope="col">Tue</th><th scope="col">Wed</th><th scope="col">Thu</th><th scope="col">Fri</th><th scope="col">Sat</th></tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">06:30</th>
+                <td data-type="strength"><span>Power Lift</span></td>
+                <td data-type="cardio"><span>HIIT Blast</span></td>
+                <td data-type="strength"><span>Power Lift</span></td>
+                <td data-type="cardio"><span>HIIT Blast</span></td>
+                <td data-type="strength"><span>Full Body</span></td>
+                <td></td>
+              </tr>
+              <tr>
+                <th scope="row">12:15</th>
+                <td data-type="yoga"><span>Lunch Flow</span></td>
+                <td></td>
+                <td data-type="cardio"><span>Spin 45</span></td>
+                <td data-type="yoga"><span>Lunch Flow</span></td>
+                <td></td>
+                <td data-type="cardio"><span>Spin 45</span></td>
+              </tr>
+              <tr>
+                <th scope="row">18:30</th>
+                <td data-type="cardio"><span>Boxing Fit</span></td>
+                <td data-type="strength"><span>Kettlebells</span></td>
+                <td data-type="yoga"><span>Yin Yoga</span></td>
+                <td data-type="strength"><span>Kettlebells</span></td>
+                <td data-type="yoga"><span>Sunset Flow</span></td>
+                <td data-type="strength"><span>Strong Sat</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt">
+      <div class="container">
+        <div class="section-head"><h2>Meet the Trainers</h2></div>
+        <div class="trainers">
+          <article class="trainer main"><div class="avatar" aria-hidden="true">🏆</div><h3>Coach Ada</h3><p>Head coach and former national powerlifter. Ada runs our strength programme and mentors every new member through their first month.</p></article>
+          <article class="trainer"><div class="avatar" aria-hidden="true">🧘</div><h3>Leo</h3><p>Yoga and mobility.</p></article>
+          <article class="trainer"><div class="avatar" aria-hidden="true">🥊</div><h3>Mira</h3><p>Boxing and HIIT.</p></article>
+          <article class="trainer"><div class="avatar" aria-hidden="true">🚴</div><h3>Sam</h3><p>Spin and endurance coach who will happily talk about marathons all day.</p></article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div><h3>PulseFit</h3><p>88 Harbor Road<br>Springfield</p></div>
+      <div><h3>Hours</h3><p>Mon&ndash;Fri: 5am &ndash; 10pm<br>Sat&ndash;Sun: 7am &ndash; 8pm</p></div>
+      <div><h3>Contact</h3><p><a href="tel:+15550199">(555) 0199</a><br><a href="mailto:hi@pulsefit.example">hi@pulsefit.example</a></p></div>
+    </div>
+    <p class="copyright">&copy; 2026 PulseFit. A fictional gym for a training demo.</p>
+  </footer>
+
+</body>
+</html>

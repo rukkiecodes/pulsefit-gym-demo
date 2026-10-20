@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="PulseFit - classes, coaching and a community that keeps you moving.">
+  <title>PulseFit | Move Better</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a href="index.html" class="logo">Pulse<span>Fit</span></a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html" aria-current="page">Home</a></li>
+        <li><a href="classes.html">Classes</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#join">Join</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button class="icon-btn" id="theme-toggle" aria-label="Toggle dark mode">🌙</button>
+        <button class="icon-btn menu-btn" id="menu-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="nav-links">☰</button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-inner">
+        <p class="eyebrow">Strength &middot; Cardio &middot; Yoga</p>
+        <h1>Find Your Pulse. Keep Your Pace.</h1>
+        <p>Coach-led classes, honest programming and a community that shows up. Your first week is on us.</p>
+        <div class="hero-actions">
+          <a href="#join" class="btn pulse">Start Free Week</a>
+          <a href="classes.html" class="btn btn-ghost">See Classes</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="features">
+      <div class="container">
+        <div class="section-head">
+          <h2>Why PulseFit</h2>
+          <p>Everything you need, nothing you don't.</p>
+        </div>
+        <div class="card-grid">
+          <article class="card"><div class="emoji" aria-hidden="true">🏋️</div><h3>Expert Coaches</h3><p>Certified trainers who correct your form, not just count reps.</p></article>
+          <article class="card"><div class="emoji" aria-hidden="true">📅</div><h3>40+ Weekly Classes</h3><p>From 6am strength to evening flow yoga.</p></article>
+          <article class="card"><div class="emoji" aria-hidden="true">🤝</div><h3>Real Community</h3><p>Train with people who notice when you miss a day.</p></article>
+          <article class="card"><div class="emoji" aria-hidden="true">📈</div><h3>Track Progress</h3><p>Quarterly check-ins keep your goals honest.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="pricing">
+      <div class="container">
+        <div class="section-head">
+          <h2>Simple Pricing</h2>
+          <p>No joining fees. Cancel anytime.</p>
+        </div>
+
+        <div class="billing">
+          <span>Monthly</span>
+          <button class="switch" id="billing-switch" role="switch" aria-checked="false" aria-label="Bill yearly"></button>
+          <span>Yearly <span class="save">save 20%</span></span>
+        </div>
+
+        <div class="pricing">
+          <article class="plan">
+            <h3>Basic</h3>
+            <p class="price">$<span data-monthly="29">29</span><small class="period">/mo</small></p>
+            <ul><li>Gym floor access</li><li>2 classes / week</li><li>Locker room</li></ul>
+            <a href="#join" class="btn btn-block">Choose Basic</a>
+          </article>
+          <article class="plan featured">
+            <span class="badge">Most popular</span>
+            <h3>Pro</h3>
+            <p class="price">$<span data-monthly="49">49</span><small class="period">/mo</small></p>
+            <ul><li>Unlimited classes</li><li>Gym floor access</li><li>Quarterly check-in</li></ul>
+            <a href="#join" class="btn btn-block">Choose Pro</a>
+          </article>
+          <article class="plan">
+            <h3>Elite</h3>
+            <p class="price">$<span data-monthly="89">89</span><small class="period">/mo</small></p>
+            <ul><li>Everything in Pro</li><li>4 PT sessions / month</li><li>Nutrition plan</li></ul>
+            <a href="#join" class="btn btn-block">Choose Elite</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="testimonials">
+      <div class="container">
+        <div class="section-head">
+          <h2>Member Stories</h2>
+          <p>Swipe or scroll &rarr;</p>
+        </div>
+        <div class="testimonials" tabindex="0" aria-label="Member testimonials">
+          <figure class="quote"><p>"I hadn't exercised in years. Six months in, I'm deadlifting my own weight."</p><cite>Amaka O.</cite></figure>
+          <figure class="quote"><p>"The 6am crew is the reason I never skip. Best accountability ever."</p><cite>David K.</cite></figure>
+          <figure class="quote"><p>"Yoga on Thursday fixed my back and my mood. Highly recommend."</p><cite>Sarah M.</cite></figure>
+          <figure class="quote"><p>"Coaches actually remember your name and your goals."</p><cite>Tunde A.</cite></figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="faq">
+      <div class="container">
+        <div class="section-head"><h2>Questions</h2></div>
+        <div class="faq">
+          <details><summary>Do I need experience?</summary><p>Not at all. Every class has beginner options and coaches adjust moves for you.</p></details>
+          <details><summary>Can I freeze my membership?</summary><p>Yes, up to 60 days per year at no cost.</p></details>
+          <details><summary>Is there a contract?</summary><p>No. All plans are month to month, or yearly if you want the discount.</p></details>
+          <details><summary>What should I bring?</summary><p>Water, a towel and comfortable shoes. We provide mats and equipment.</p></details>
+          <details><summary>Do you offer personal training?</summary><p>PT sessions are included in Elite and available to add on for any plan.</p></details>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="join">
+      <div class="container">
+        <div class="section-head">
+          <h2>Join PulseFit</h2>
+          <p>Takes less than a minute.</p>
+        </div>
+
+        <form class="form" id="join-form" novalidate>
+          <div class="field">
+            <label for="name">Full name</label>
+            <input type="text" id="name" name="name" autocomplete="name">
+            <span class="error" role="alert"></span>
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" autocomplete="email">
+            <span class="error" role="alert"></span>
+          </div>
+          <div class="field">
+            <label for="plan">Plan</label>
+            <select id="plan" name="plan">
+              <option value="">Choose...</option>
+              <option value="basic">Basic</option>
+              <option value="pro">Pro</option>
+              <option value="elite">Elite</option>
+            </select>
+            <span class="error" role="alert"></span>
+          </div>
+          <div class="field">
+            <label for="date">Start date</label>
+            <input type="date" id="date" name="date">
+            <span class="error" role="alert"></span>
+          </div>
+          <div class="field check">
+            <label><input type="checkbox" name="terms"> I agree to the terms</label>
+            <span class="error" role="alert"></span>
+          </div>
+          <button type="submit" class="btn btn-block">Join Now</button>
+          <p class="success" id="form-success" role="status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div><h3>PulseFit</h3><p>88 Harbor Road<br>Springfield</p></div>
+      <div><h3>Hours</h3><p>Mon&ndash;Fri: 5am &ndash; 10pm<br>Sat&ndash;Sun: 7am &ndash; 8pm</p></div>
+      <div><h3>Contact</h3><p><a href="tel:+15550199">(555) 0199</a><br><a href="mailto:hi@pulsefit.example">hi@pulsefit.example</a></p></div>
+    </div>
+    <p class="copyright">&copy; 2026 PulseFit. A fictional gym for a training demo.</p>
+  </footer>
+
+</body>
+</html>
